@@ -120,8 +120,6 @@
 }
 
 .btn-pr{
-    height: 50px;
-    width: 150px;
     background-color: #006A50;
     color: white;
     border: none;
@@ -270,7 +268,7 @@ main{
 /* News section */
 .date-time {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
      
 }
 .read-btn{
