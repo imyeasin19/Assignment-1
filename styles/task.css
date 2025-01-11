@@ -118,10 +118,10 @@
 .green-color{
     color: #006A50;
 }
-.green-btn{
 
-}
 .btn-pr{
+    height: 50px;
+    width: 150px;
     background-color: #006A50;
     color: white;
     border: none;
@@ -352,6 +352,58 @@ input[type="text"]{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: larger;
     
+}
+/* Footer Styles */
+footer{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.footer-content{
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-container{
+
+    height: 300px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+.fb{
+    display: flex;
+    gap: none;
 
 }
-
+input[type="email"]{
+    margin-top: 24px;
+    margin: 0 auto;
+    width: 600px;
+    height: 47px;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: larger;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+.btn-pr2{
+    height: 50px;
+    width: 150px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 17px 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
